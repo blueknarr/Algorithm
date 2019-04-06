@@ -50,9 +50,9 @@ int main(){
 				for (int k = j + 1; k < W; ++k){
 					int row = H;
 					int cnt = 0;
-					col[0] = 0;
-					col[1] = 4;
-					col[2] = 5;
+					col[0] = i;
+					col[1] = j;
+					col[2] = k;
 					
 					numOfEnemy = numOfEnemy2;
 					while (numOfEnemy){
